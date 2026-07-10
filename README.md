@@ -1,6 +1,13 @@
 <table>
 <tr>
 <td valign="top" width="55%">
+  
+     ▓█████╗   █████╗  ██╗   ██╗ ██╗      ██╗ ██╗      ██╗       ██████╗
+     ██╔══██╗ ██╔══██╗ ██║   ██║ ██║      ██║ ██║      ██║      ██╔═══██╗
+     ██║  ██║ ███████║ ██║   ██║ ██║      ██║ ██║      ██║      ██║   ██║
+     ██║  ██║ ██╔══██║ ╚██╗ ██╔╝ ██║      ██║ ██║      ██║      ██║   ██║
+     ██████╔╝ ██║  ██║  ╚████╔╝  ███████╗ ██║ ███████╗ ███████╗ ╚██████╔╝
+     ╚═════╝  ╚═╝  ╚═╝   ╚═══╝   ╚══════╝ ╚═╝ ╚══════╝ ╚══════╝  ╚═════╝
 
 ```text
 ╭──╴ portrait.txt ╶────────────────────────────── ○ ○ ● ─╮
@@ -37,37 +44,6 @@
 │ ⢌⠢⠡⢑⠨⢢⠱⡑⡕⣝⢬⢣⣣⡷⣝⢝⢜⡕⡇⡕⡜⡔⢕⢱⠨⡊⡢⢣⢑⢕⢸⢘⢜⢸⢘⢜⢜⢌⠆⢁│     │
 ╰────────────────────────────────────────────────────────╯
 ```
-
-```text
-╭──╴ projects/ ╶───────────────────────────────── ○ ○ ● ─╮
-│ $ tree ~/projects                                      │
-│                                                        │
-│ ~/projects                                             │
-│ ├── candil/                 AI academic platform       │
-│ │   ├── study planner · pomodoro · calendar            │
-│ │   └── ↗ candil.art                                   │
-│ │                                                      │
-│ ├── trapiche-lab/           interactive education      │
-│ │   ├── physics sims · math · voice AI · RAG           │
-│ │   └── ↗ trapichelab.netlify.app                      │
-│ │                                                      │
-│ ├── beep-sv/                community reporting        │
-│ │   ├── citizen participation · location based         │
-│ │   └── ↗ beepsv.com                                   │
-│ │                                                      │
-│ ├── biosmart/               IoT env. monitoring        │
-│ │   └── ESP32 · sensors · PCB · 3D printing            │
-│ │                                                      │
-│ ├── veterinary-saas/        cloud vet platform         │
-│ │   └── appointments · patients · billing              │
-│ │                                                      │
-│ └── k8s-homelab/            self-hosted infra          │
-│     └── docker · kubernetes · automation               │
-│                                                        │
-│ 6 directories · all systems operational                │
-╰────────────────────────────────────────────────────────╯
-```
-
 </td>
 <td valign="top" width="45%">
 
@@ -119,33 +95,6 @@
 ╰────────────────────────────────────────────────╯
 ```
 
-```text
-╭──╴ skills.conf ╶─────────────────────── ○ ○ ● ─╮
-│ $ cat skills.conf                              │
-│                                                │
-│ [programming]                                  │
-│ python · java · typescript                     │
-│ javascript · sql                               │
-│                                                │
-│ [frontend]                                     │
-│ react · next.js · html · css                   │
-│                                                │
-│ [backend]                                      │
-│ spring-boot · postgresql                       │
-│                                                │
-│ [ai]                                           │
-│ openai · anthropic · rag · mcp                 │
-│ machine-learning                               │
-│                                                │
-│ [infrastructure]                               │
-│ docker · kubernetes · n8n                      │
-│ openclaw · hermes · automation                 │
-│                                                │
-│ [iot]                                          │
-│ esp32 · sensors · pcb-design                   │
-│ blender                                        │
-╰────────────────────────────────────────────────╯
-```
 
 </td>
 </tr>
