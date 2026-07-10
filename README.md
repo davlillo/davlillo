@@ -16,8 +16,6 @@
 
 ```text
 ╭──╴ portrait.txt ╶────────────────────────────── ○ ○ ● ─╮
-│ $ chafa --dither fs --symbols braille yo.png           │
-│                                                        │
 │                     ⢀⢠⢠⢠⢠⢠⢠⢠⢄⢤⡀⣀                   │
 │                  ⡀⡤⡪⡪⡊⡢⢂⢅⠣⡑⡅⡕⡑⢍⢎⠯⣖⢆⡄            │
 │                ⡄⡆⡇⡣⢊⠔⡡⠨⢂⢂⢇⢳⢱⡳⣝⠮⡢⡙⡬⡣⠫⡲⡀         |
@@ -44,6 +42,17 @@
 │ ⠥⡑⢌⠢⢪⠸⡘⡜⡌⡆⢇⢕⠜⡔⢕⢱⢡⢣⢱⢱⢱⢨⢣⠩⡢⡑⡜⢌⢪⠢⡣⡣⡊⡎⡪⡸⡸⡨⡢ │
 │ ⠕⡅⢅⠣⡑⢕⢱⢑⢜⢸⢘⢜⠜⡜⢜⢜⠜⡜⢜⢌⢎⢪⠢⡣⡪⡢⢣⠣⡣⢱⠱⡨⡢⡣⡃⡇⡕⡅⡇ │ 
 ╰────────────────────────────────────────────────────────╯
+```
+```text
+╭──╴ contact.conf ╶───────────────────────────── ○ ○ ● ─╮
+│ $ cat contact.conf                                    │
+│                                                       │
+│ email    = serdavidhg@gmail.com                       │
+│ linkedin = david-hernández-293302378                  │
+│ location = El Salvador 🇸🇻                             |
+| status    = open to collaboration                     |
+| instagram = @davlillo_                                │
+╰───────────────────────────────────────────────────────╯
 ```
 </td>
 <td valign="top" width="30%">
@@ -96,15 +105,7 @@
 </table>
 
 
-```text
-╭──╴ contact.conf ╶────────────────────────────────────────────────────────────────────────────────── ○ ○ ● ─╮
-│ $ cat contact.conf                                                                                         │
-│                                                                                                            │
-│ email     = serdavidhg@gmail.com          github    = github.com/davlillo                                  │
-│ linkedin  = in/david-hernández-293302378  instagram = @davlillo_                                           │
-│ location  = San Salvador, El Salvador 🇸🇻   status    = open to collaboration                               │
-╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-```
+
 
 <div align="center">
 
