@@ -1,99 +1,173 @@
-<div align="center">
-
-```text
-davlillo @ arch — hyprland · ghostty · neovim
-```
-
-</div>
-
 <table>
 <tr>
-<td valign="top" width="56%">
+<td valign="top" width="55%">
 
 ```text
-                       ⡀⡤⡔⡴⣠⣠⢠⣀⢠⢠⡠⣀⢀
-                 ⢀⢠⡠⢔⠔⡊⠪⡘⠌⠪⢂⠃⠃ ⡁⠁⠁⠡⠙⠘⠖⡤⡀
-              ⣀⢔⠜⠍⠂⠂⡂⠔⠈⡐⠠⠡⡑⢐⠈⢀ ⠄⡀⠁⠄⢂⠈⠄⠂⡑⠱⡠⡀
-           ⢀⠤⠓⠡⠁⢐⠠⠁⠡ ⢂⠐⢄⢑⠅⢌⢐⠌⡂⡁     ⠈⠄⠅⠄⠅⡂⠍⡢⡢⣀
-        ⡆⡔⡊⡡⡐⠅⡈⢐⠠⠐⠈⠠⠈⠄⠌⡐⠔⡨⠢⠑⢁⠂⠂⠢⢐⢀⠂⠐  ⠠⠡⠡⢂⢂⠂⡊⡪⢢⡀
-      ⠢⡪⠌⠠⢊⠢⠁⠁⠄⠂⢀ ⢂⠠⢁⠂⠅⡂⠕⠨⡐⠁⠄⠨ ⠁  ⢈ ⢁⠈ ⠄⠡⠡⢂⠕⢄⠂⡑⢜⢄
-     ⡆⠇⠥⢁⠡ ⢀ ⠂⠐⠈⢀⠈⡀⠄⢂⠨⢐⠠⢡⠱⡈⠌⠠ ⡁⠄⠠ ⢐ ⠄⠐⠠⢈ ⠅⡂⠪⡠⠣⡨⡂⡣⠁
-      ⠜⡜⠠⠈⠠  ⠠⠐⠈ ⠐⢀⠂⢄⢂⠂⡌⡢⡱⡰⢈⠨⡐⠄⡂⠐ ⡂⠠⠈⠄⢅⠂⠌⡐⢐⠠⠈⠊⠆⡆⢕⢄
-       ⡨   ⠄⠁  ⠄⢂⢁⢐⢁⢅⢆⢱⢜⡜⡔⡕⡕⡄⡘⠌⠄⠂⠁⢄⠊⠄⠕⡐⡈⡀⠨⢐⠨⡀⠁⠄⠨⡈⠢⡣⡀
-      ⠠⡺⡐ ⠠ ⠐⠈⢀⠑⡀⠢⡑⡌⡦⡳⣕⢯⡺⡸⡜⣎⢎⢎⢌⢠⠡⡑⠡⠊⢌⢢⢂⠔⡀⡂⠄⡑⡐⠠  ⠂⠅⡪⡜⡀
-      ⢨⠊   ⠂⠁ ⡂⡂⣆⢆⡢⡡⡑⡩⠪⢳⢹⢸⡺⣜⣜⢜⡔⠅⢂⠠⢐⢨⢜⡼⣰⢱⠠⢂⠨⠐⢌⢂⢁ ⠂⠁⢔⢹⠄
-      ⢕⢅⢢⠈⠄  ⡀⡢⣕⡳⡝⣞⢵⢳⡪⣞⡕⢬⣳⣫⣗⣎⢧⡑⡡⡂⣢⢡⢊⡱⢹⡸⡨⡣⡁⡀⠈⡢⢑⢐ ⠈⠄⢁⠢⡣⡀
-      ⠁⡱⡑⠅⠁  ⢜⢮⡲⡁⡕⡬⡈⡘⡸⡸⡨⡺⣺⣺⣾⣺⢵⢣⢣⡫⣺⡹⣵⣻⣳⡯⣟⣎⢆⠄ ⢐⢐ ⡈⠄⠂⡠⡘⡄
-        ⢕⠡⢰⠠ ⣏⢗⡵⣣⢗⣗⡵⡵⡱⡊⡎⡞⣞⣾⡷⣿⢽⣪⢕⢵⢢⢐⣡⢕⢳⣫⣟⣮⢲  ⠄⠐⠄⠄⢄⠁⡢⡪⠃
-           ⠁⢜⢮⣻⣺⣝⣗⡷⣝⣞⣜⢮⡪⡯⣾⣿⣟⣿⣟⣯⣯⣗⣯⣾⡾⣯⣷⣿⣽⣞⡧⠂ ⠨ ⡀⠡⡡⡸⡪
-            ⢨⣳⣳⢗⣿⣺⢽⣺⡺⣜⢮⡪⣟⣿⣯⣿⣿⣿⣿⣷⢿⣽⣾⣿⣿⣿⣯⣿⢷⣏⢀⠠⡊⠔⡠⠇⠓
-            ⠰⣕⣯⣻⣺⡽⣽⡺⣺⡪⡮⣞⣿⣿⣿⣯⣷⣿⢿⣾⣿⣯⣿⡿⣿⣿⣿⣿⣟⣗⡮⡱⡱⡱⡁
-            ⠈⣞⢼⡺⡮⡯⡷⣝⢞⢮⡩⡺⣯⢿⢏⠻⣻⣿⣻⣿⣻⣿⣟⣿⣿⣿⣿⣯⣿⣽⠇⠋ ⠈
-             ⢮⣻⡺⣽⣫⣟⢽⢝⣎⢎⣗⣽⢿⣿⣽⣾⣽⣿⣾⣿⢿⣿⣿⢿⣿⣾⣷⣟⠎
-             ⢑⣗⡽⣺⡺⣪⢗⡽⡼⡵⣿⣞⣟⣿⣿⣽⣿⣿⣿⣾⣿⣿⢿⣿⣷⣿⢾⠃
-              ⢚⢞⣗⣽⢳⡫⡹⡸⣑⡇⣟⢞⣝⡟⡿⣿⣽⣾⣿⣿⣿⣿⢿⣾⣻⠏
-               ⠑⡳⡽⣕⢯⡺⡜⣗⢿⢽⡽⣷⣻⢷⣷⣻⣿⣻⣽⣾⣿⣻⣽⢏⢀
-                ⠈⢝⢮⣳⢝⣞⢮⣳⢵⣝⢾⣺⡿⣽⣯⡿⣟⣿⣻⣞⣿⡾⡏⢄⠑⠄⠠⠠⢀
-                 ⡀⠯⣺⢽⣺⣯⢿⣯⣿⣿⣯⣿⢿⣾⢿⣻⣽⢾⣯⣿⣟⠇⡡⠨⠈⠄⠅⠠⢁⠂⢂⢐⠐⢄
-             ⢀⠠⠐  ⡀⢝⢵⡻⣞⣟⡷⣿⢷⣿⣻⣟⣽⣯⣷⣿⣿⢿⡯⢃⠅⡂⠅⡨⠨ ⠌⢀⠐⡐⡐⠨ ⠨⠈⡂⠢⡀
-         ⢀⠠⠐⠈  ⡀  ⡀⠸⡱⣯⡺⡼⣹⢽⢽⣺⣷⣻⣽⣾⡿⣾⢟⠫⠠⡁⡂⡂⠅⠂⠂⡐⢐⠠⢑⢐⠨ ⠁⠠⢈⠂⠅⡀
-      ⠠⠐⠈⢀ ⠄⠐ ⠁   ⠠ ⠕⡳⡽⡽⡽⣽⣻⣽⡾⣿⢽⠗⠫⡁⠢⠨⢐⢐⠐⡀⠡⠠⡁⡂⠅⢌⢂⠢⠐⠈ ⢐⠠⠁⠂⠄
-   ⢀⠄⢁⠂⠐⠈ ⡀⠄⠂⢀⠁⠄⠂⠈ ⠄⠁⠄⢑⠩⢋⠚⡊⡃⡋⡐⢐⠨⢐⠠⠡⢁⠂⠂⠠⡐⠨⠂⡂⡂⠅⠕⡐ ⠂ ⠐⡀⠂⠌⠌⠌
-  ⡠⠁⠠ ⠄⡁⡈⠄ ⠄⢈⠠⠐ ⠂⠄⠁⠄⢁⠐⠠⠐⡀⢂⢐⢀⢂⢐⢐⢐⠐⡈⠄⠁⠠⡈⡂⡊⠌⡐⢐⠨⡨⠨ ⠌ ⢀⢁⢐⠨⡈⠂⢀
- ⠌ ⠄⠡⠈⠄⠠ ⠄⢁⠐⢀⠐⡀⡁⠡⢈⠐⡀⢂⠨ ⠅⡐⢐⢀⢂⠐⠄⢂⠐ ⠄⡐⡈⡂⡢⠊⡐⠐⠠⡑⡨⠐⠨⠐ ⠂⠠⢐⢐⠐ ⡀⠂
-⢠⠡⠈⠠⠁⠌⠠⠁⠌⠐⡀⠂⡐⠐⠠⠐⢈⠠⠨⠐⡀⡂⠅⢂⠐⠄⢂⠐⡈⠄⠂⠄⠅⡂⡂⡂⡂⡂⠅⡂⠁⢅⢂⠂⠅⡡⠈⠄ ⢌⢂⠂⠄⠁⠠⠨
-⠂⠄⡁⠂⠡⢈⠐⠈⠄⡁⠄⢂⠠⠡⠈⠌⡀⢂⠡⠈⠄⡂⠌⡐⡈⡐⠄⠂⠄⡂⠅⠅⠅⡂⡂⡊⡐⠄⠅⢂⠁⠢⡡⢈⢂⢂⠡ ⡈⡂⡂⠐ ⠠⡑⡁
+╭──╴ portrait.txt ╶────────────────────────────── ○ ○ ● ─╮
+│ $ chafa --dither fs --symbols braille yo.png           │
+│                                                        │
+│                     ⢀⢠⢠⢠⢠⢠⢠⢠⢄⢤⡀⣀                       │
+│                  ⡀⡤⡪⡪⡊⡢⢂⢅⠣⡑⡅⡕⡑⢍⢎⠯⣖⢆⡄                   │
+│                ⡄⡆⡇⡣⢊⠔⡡⠨⢂⢂⢇⢳⢱⡳⣝⠮⡢⡙⡬⡣⠫⡲⡀                 │
+│             ⢤⢪⢪⢊⢆⠣⡊⡢⡑⡌⣜⢐⢐⠅⠕⡡⢃⢃⠣⠣⠱⡘⡆⢅⠣⡣⡀                │
+│             ⡈⡎⡪⠢⡑⢌⠢⡱⡘⡜⡔⣕⢵⣱⢱⡪⣒⢔⠌⡂⠅⠢⢘⠨⢸⢸⢢                │
+│            ⢠⠪⡂⢎⢂⠪⢐⠡⡢⡪⣪⢮⣯⢷⣳⢯⢾⣕⢧⡳⡨⠨⠨⠠⢑⠨⢊⢧⢣               │
+│            ⢑⢌⠪⡐⡐⠡⡢⠱⡘⢎⠏⡟⡾⣻⡽⣯⣟⠾⡝⠞⢝⠜⡨⠨⡂⡊⡢⡱⡁               │
+│            ⡪⡢⡑⡐⠌⢌⢆⢧⢳⢵⢕⢵⡱⡽⣽⢷⢕⡵⣪⡳⣣⢗⡵⣑⠔⡨⠢⡱⡀               │
+│            ⠈⡆⠪⡐⢁⢕⡯⡪⡪⡌⣌⢇⣗⣽⣽⢯⡳⣝⢴⢅⢕⢕⡹⣵⢱⢈⠪⡸⡐               │
+│            ⠕⠜⠨⡐⡐⣽⢮⣗⡷⡽⣮⣟⡾⣷⣿⣿⢽⣺⢽⣺⣽⣳⣻⣺⣳⠠⡑⢌⢌⠄              │
+│              ⡑⠄⣇⣿⢯⣷⣻⣟⣷⣟⣿⣻⢿⣻⢟⣞⣯⢷⣗⣯⣷⣻⣽⢆⠨⢐⠰⡑              │
+│              ⠠⠁⢜⡾⡯⣞⡾⣯⣿⡳⣅⢎⡯⡦⣍⢯⡾⡯⣷⡻⡮⣷⣻⡂⡐⢄⠣⠁              │
+│               ⠑⢕⢸⢯⣗⡯⣷⣟⣯⣷⡻⡮⣻⣺⡽⣯⣟⣗⣯⢯⢷⡏⡐⡐⠁                │
+│                ⠐⢌⢷⣳⢯⣷⡻⣝⡼⣜⣝⣜⣕⡻⡽⣾⢽⣞⡯⣿⢁⠂                  │
+│                  ⠈⢾⢽⣪⢯⡳⡝⡝⣜⢵⡹⡽⡽⣞⣟⢮⢯⠃⠄                   │
+│                    ⢫⢞⡵⣯⢾⣝⣞⣞⣮⣯⣞⡗⣗⢯⡃                     │
+│                  ⢀⣠⣪⢯⣞⢽⢝⢞⡽⣝⢗⡗⡧⣫⢾⢽⡎⡢⢑⠠⡠⢀                │
+│             ⡀⢄⠢⡨⢊⢽⣺⢮⢗⣗⣗⢵⡣⣇⢧⡳⣝⢾⣝⡯⣟⠪⡨⢂⠕⢌⠢⡑⡕⡕⡔⣄⢄⢀⢀        │
+│       ⡀⡠⡠⡰⡰⡱⢡⠡⡑⢔⢐⠹⡺⡽⣝⣞⢮⣳⢽⣪⢷⢽⡺⡳⡓⠍⡂⢅⢊⠔⡡⡡⡱⡱⡑⡕⡕⣕⢵⢹⡱⡝⡎⣖⢔⣄⡀  │
+│    ⡤⡪⡪⡣⡣⣓⢭⢪⢪⠢⡣⡑⢅⢪⠨⡢⠡⡑⠜⡑⠣⢋⠪⢙⠨⠨⢐⢈⢂⢊⠔⢡⢨⠢⡣⡣⡣⡣⡣⡣⡣⡣⡣⡣⡣⡫⡪⡪⡎⡮⡳ │
+│  ⢠⡓⡕⡕⡕⡕⡕⡕⡕⡕⡕⡕⢕⢱⢑⢌⠪⡂⡣⢊⠌⡂⠕⡐⢌⠐⠌⠌⡂⡢⢂⢆⠪⡢⢣⢣⢣⢣⢣⢣⢣⢣⢣⢣⢣⢣⢣⢣⢣⢳⢱⢱⡹ │
+│ ⢠⢣⠪⡪⢸⢨⠪⡊⡎⡜⡌⢆⢇⢣⠱⡨⠪⡘⢌⠢⡑⠌⢔⠡⡊⢄⠕⡡⠱⠨⣐⢢⢱⢑⢕⢕⢕⢕⢕⢕⢕⢕⢅⢇⢇⢇⢇⢇⠇⡇⡇⡇⡇⡧ │
+│ ⢕⠅⡕⡘⡌⡆⢇⢣⢱⢸⢘⢌⢆⢕⢑⠜⡌⡪⡊⡎⡜⡌⠆⠕⢌⠢⡑⢌⢊⢪⠢⡣⡣⢱⢑⢜⢔⢕⢕⢕⢕⠕⡜⡜⢜⠜⡜⡸⡘⡜⢜⢸⢸⢸ │
+│ ⠥⡑⢌⠢⢪⠸⡘⡜⡌⡆⢇⢕⠜⡔⢕⢱⢡⢣⢱⢱⢱⢨⢣⠩⡢⡑⡜⢌⢪⠢⡣⡣⡊⡎⡪⡸⡸⡨⡢⡣⡱⡘⡌⢎⠪⡊⡎⡪⡘⡌⢎⢎⢎⢆ │
+│ ⠕⡅⢅⠣⡑⢕⢱⢑⢜⢸⢘⢜⠜⡜⢜⢜⠜⡜⢜⢌⢎⢪⠢⡣⡪⡢⢣⠣⡣⢱⠱⡨⡢⡣⡃⡇⡕⡅⡇⡇⡣⢪⢘⢜⢘⢌⢎⢪⠂⡊⢆⢇⠕⡜ │
+│ ⢕⠌⡢⢑⠌⢎⢆⢣⢱⢑⢕⠕⡕⡕⡕⡕⡕⡕⡕⡕⢕⢕⢕⢕⢕⢕⢕⠱⡘⡌⡎⡪⢢⢣⢱⢑⢅⢇⢇⢇⠪⡢⢣⠪⡘⡔⢕⠥⠡⠨⡢⡃⢕⢕ │
+│ ⢢⢃⠢⡡⡑⢅⢇⠕⡅⢇⢕⡵⣣⢗⡵⡵⡸⡨⡪⡸⡸⡰⡱⡱⡑⡕⢔⠱⡡⡣⡱⡸⢸⠰⡑⡕⢕⢕⢕⢅⠕⡜⢔⢕⢱⢸⠸⡘⠌⢌⠢⡊⢜⢔ │
+│ ⢸⢐⢁⠢⡊⢜⢔⠱⡑⡭⡳⡹⣪⢳⠵⡝⣕⢧⢱⢱⢸⢸⢨⠪⡪⡨⢪⢘⢌⢆⢣⠪⡪⢪⢊⢎⢎⢎⢎⠢⡱⡘⡌⡆⡣⡪⡪⢪⠨⢐⠅⢌⢢⢑ │
+│ ⢌⠢⠡⢑⠨⢢⠱⡑⡕⣝⢬⢣⣣⡷⣝⢝⢜⡕⡇⡕⡜⡔⢕⢱⠨⡊⡢⢣⢑⢕⢸⢘⢜⢸⢘⢜⢜⢌⠆⢕⢌⢪⢂⢇⢕⠕⡜⢔⢁⠢⡑⠡⡊⡢ │
+│                                                        │
+│ yo.png  ·  floyd-steinberg  ·  braille/utf-8           │
+╰────────────────────────────────────────────────────────╯
+```
+
+```text
+╭──╴ projects/ ╶───────────────────────────────── ○ ○ ● ─╮
+│ $ tree ~/projects                                      │
+│                                                        │
+│ ~/projects                                             │
+│ ├── candil/                 AI academic platform       │
+│ │   ├── study planner · pomodoro · calendar            │
+│ │   └── ↗ candil.art                                   │
+│ │                                                      │
+│ ├── trapiche-lab/           interactive education      │
+│ │   ├── physics sims · math · voice AI · RAG           │
+│ │   └── ↗ trapichelab.netlify.app                      │
+│ │                                                      │
+│ ├── beep-sv/                community reporting        │
+│ │   ├── citizen participation · location based         │
+│ │   └── ↗ beepsv.com                                   │
+│ │                                                      │
+│ ├── biosmart/               IoT env. monitoring        │
+│ │   └── ESP32 · sensors · PCB · 3D printing            │
+│ │                                                      │
+│ ├── veterinary-saas/        cloud vet platform         │
+│ │   └── appointments · patients · billing              │
+│ │                                                      │
+│ └── k8s-homelab/            self-hosted infra          │
+│     └── docker · kubernetes · automation               │
+│                                                        │
+│ 6 directories · all systems operational                │
+╰────────────────────────────────────────────────────────╯
 ```
 
 </td>
-<td valign="top" width="44%">
+<td valign="top" width="45%">
 
 ```text
-$ fastfetch
-
-david hernández — davlillo
-──────────────────────────────────
-ubicación   san salvador, el salvador
-rol         estudiante de ing. de sistemas
-uni         universidad de el salvador
-foco        ia · iot · automatización
-            full stack · tecnología sostenible
-
-os          linux
-wm          hyprland
-editor      neovim
-terminal    ghostty
-ide         claude code
+╭──╴ fastfetch ╶───────────────────────── ○ ○ ● ─╮
+│ $ fastfetch                                    │
+│                                                │
+│             davlillo@arch                      │
+│             ─────────────                      │
+│ User        David Hernández                    │
+│ Handle      davlillo                           │
+│ Location    San Salvador, El Salvador 🇸🇻       │
+│ Role        Systems Engineering Student        │
+│ University  Universidad de El Salvador         │
+│                                                │
+│ Focus       Artificial Intelligence            │
+│             Internet of Things                 │
+│             Automation                         │
+│             Full Stack Development             │
+│             Sustainable Technology             │
+│                                                │
+│ OS          Linux                              │
+│ Shell       zsh                                │
+│ WM          Hyprland                           │
+│ Editor      Neovim                             │
+│ IDE         Claude Code                        │
+│ Terminal    Ghostty                            │
+│                                                │
+│ Colors      ██ ██ ██ ██ ██ ██ ██ ██            │
+╰────────────────────────────────────────────────╯
 ```
 
 ```text
-$ cat stack.conf
+╭──╴ about.md ╶────────────────────────── ○ ○ ● ─╮
+│ $ cat about.md                                 │
+│                                                │
+│ I'm David Hernández — davlillo.                │
+│                                                │
+│ Systems Engineering student passionate         │
+│ about AI, IoT and Full Stack Development.      │
+│                                                │
+│ I enjoy building products that combine         │
+│ intelligent software with real-world           │
+│ hardware — focused on education,               │
+│ agriculture, automation and sustainable        │
+│ technology.                                    │
+│                                                │
+│ I love turning ideas into polished             │
+│ products through thoughtful design             │
+│ and modern engineering.                        │
+╰────────────────────────────────────────────────╯
+```
 
-python · typescript · java · react · next.js · spring boot
-postgresql · docker · kubernetes · esp32 · rag · mcp · n8n
+```text
+╭──╴ skills.conf ╶─────────────────────── ○ ○ ● ─╮
+│ $ cat skills.conf                              │
+│                                                │
+│ [programming]                                  │
+│ python · java · typescript                     │
+│ javascript · sql                               │
+│                                                │
+│ [frontend]                                     │
+│ react · next.js · html · css                   │
+│                                                │
+│ [backend]                                      │
+│ spring-boot · postgresql                       │
+│                                                │
+│ [ai]                                           │
+│ openai · anthropic · rag · mcp                 │
+│ machine-learning                               │
+│                                                │
+│ [infrastructure]                               │
+│ docker · kubernetes · n8n                      │
+│ openclaw · hermes · automation                 │
+│                                                │
+│ [iot]                                          │
+│ esp32 · sensors · pcb-design                   │
+│ blender                                        │
+╰────────────────────────────────────────────────╯
 ```
 
 </td>
 </tr>
 </table>
 
-```text
-$ ls ~/proyectos
 
-candil         plataforma académica con ia      → candil.art
-trapiche-lab   educación interactiva · voz ia   → trapichelab.netlify.app
-beep-sv        reportes ciudadanos              → beepsv.com
-biosmart       monitoreo ambiental iot · esp32
-saas-vet       plataforma cloud p/ veterinarias
-homelab-k8s    infra self-hosted · docker · k8s
+```text
+╭──╴ contact.conf ╶────────────────────────────────────────────────────────────────────────────────── ○ ○ ● ─╮
+│ $ cat contact.conf                                                                                         │
+│                                                                                                            │
+│ email     = serdavidhg@gmail.com          github    = github.com/davlillo                                  │
+│ linkedin  = in/david-hernández-293302378  instagram = @davlillo_                                           │
+│ location  = San Salvador, El Salvador 🇸🇻   status    = open to collaboration                               │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=davlillo&show_icons=true&locale=es&bg_color=0d1117&title_color=89b4fa&text_color=cdd6f4&icon_color=f5c2e7&border_color=30363d&border_radius=10&ring_color=a6e3a1" alt="estadísticas" />&nbsp;<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=davlillo&layout=compact&locale=es&langs_count=6&bg_color=0d1117&title_color=89b4fa&text_color=cdd6f4&border_color=30363d&border_radius=10" alt="lenguajes" />
-
-<sub><a href="mailto:serdavidhg@gmail.com">correo</a> · <a href="https://github.com/davlillo">github</a> · <a href="https://www.linkedin.com/in/david-hernández-293302378">linkedin</a> · <a href="https://www.instagram.com/davlillo_">instagram</a></sub>
-
-<sub>hecho en el salvador 🇸🇻</sub>
+<sub><a href="mailto:serdavidhg@gmail.com">email</a> · <a href="https://github.com/davlillo">github</a> · <a href="https://www.linkedin.com/in/david-hernández-293302378">linkedin</a> · <a href="https://www.instagram.com/davlillo_">instagram</a> · <a href="https://candil.art">candil</a> · <a href="https://trapichelab.netlify.app">trapiche lab</a> · <a href="https://beepsv.com">beep sv</a></sub>
 
 </div>
